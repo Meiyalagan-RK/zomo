@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+/* navbar section */
+
+header{
+
+    background-color: rgb(227, 161, 75);
+    padding: 0 2%;
+    align-items: center;
+    
+}
+a.nav-head {
+    margin-left:5rem;
+    font-size:2rem;
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+}
+
+a.nav-head:hover{
+color: azure;
+}
+
+form .search-btn{
+    padding: 2px;
+    font-size: 1.3rem;
+}
+
+form .search-btn:hover{
+    
+    color: azure;
+    transform: scale(105%);
+}
+
+input.form-control.me-4.search-bar {
+    margin-left: 3rem;
+    width: 22vw; 
+    border-radius: 20px;
+    padding-left: 5%;
+   }
+.nav-item{
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-top: 5px;
+}
+a.btn-right{
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: rgb(26, 25, 25);
+}
+a.btn-right:hover{
+    color: azure;
+}
+
+
+/* About */
+
+
+.top-section{
+    z-index: -2;
+    height: 70vh;
+    background-image: url(./photos/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.section-1{
+    text-align: center;
+    padding: 12%;
+    
+}
+
+.title-1{
+    color: rgb(62, 122, 174);
+    font-size: 5rem;
+}
+
+.title-2:hover{
+    background-color: aliceblue;
+}
+
+
+/* filter heading */
+
+section.mid-header{
+    height: 8vh;
+    background-color: rgb(227, 161, 75);
+    padding: 0 20rem;
+    position: relative;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 2rem;
+}
+
+button.veg-btn{
+    color: rgb(26, 25, 25);
+    background-color: whitesmoke;
+    margin: 1%;
+}
+
+button.non-veg-btn{
+    color: rgb(26, 25, 25);
+    background-color: whitesmoke;
+    margin: 1%;
+}
+
+div.drop-contain{
+    align-items: center;
+
+}
+
+.drop-contain{
+    padding:1% 2%;
+}
+
+
+/* filter section  */
+.box {
+    margin-top:4rem;
+    margin-bottom: 4rem;
+    padding:0 5%;
+}
+
+.food-head{
+    margin: 2rem;
+}
+.Filter-right{
+    width: 100%;
+    border: 2px solid rgb(227, 208, 61);
+    margin:1rem;
+    padding: 2rem;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+.card-img-top{
+    height: 15rem;
+}
+
+
+/* carousel section */
+
+
+/* Footer design */
+.footer{
+    width: 100%;
+    align-items: center;
+    background-color: rgb(227, 161, 75);
+    position: relative;
+    padding: 2rem;
+
+}
+.foot-font{
+    font-size: 1.5rem;
+    color: rgb(26, 25, 25);
+    padding: 1rem;
+
+}
+
+.about{
+    height: 200px;
+    width: 400px;
+
+    padding: 1rem;
+}
+.address{
+    height: 200px;
+    width: 400px;
+ 
+    padding: 1rem;
+}
+.s-links{
+
+    height: 200px;
+    width: 400px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.foot-btn{
+    margin: 1rem;
+}
+.foot-logo{
+    margin: 1rem;
+}
+
+#logo{
+    color: rgb(49, 54, 49);
+}
+#logo i:hover{
+    color: aliceblue;
+    transform: scale(110%);
+}
